@@ -62,3 +62,9 @@
     }
   ]
 }
+{
+  ...
+  id: "/?homescreen=1",
+  start_url: "/?homescreen=1",
+  ...
+}
