@@ -1,15 +1,15 @@
 {
-  "name": "La Zona 593",
-  "short_name": "La Zona 593",
-  "description": "Música del Ecuador para el mundo",
+  "name": "Jailson Webradio",
+  "short_name": "Jailson Webradio",
+  "description": "Música sem Gospel sem parar!",
   "icons": [
     {
-      "src": "assets/lazona_cover.png",
+      "src": "assets/jailson_cover.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "assets/lazona_cover.png",
+      "src": "assets/jailson_cover.png",
       "type": "image/png",
       "sizes": "512x512"
     }
@@ -22,26 +22,26 @@
   "display_override": [
     "standalone"
   ],
-  "lang": "es-PE", 
+  "lang": "pt-BR", 
   "dir": "ltr",
   "categories": [
     "music"
   ],
   "screenshots": [
     {
-      "src": "assets/lazona_cover.png",
+      "src": "assets/jailson_cover.png",
       "type": "image/png",
       "sizes": "540x720",
       "form_factor": "narrow"
     },
     {
-      "src": "assets/lazona_cover.png",
+      "src": "assets/jailson_cover.png",
       "type": "image/png",
       "sizes": "540x720",
       "form_factor": "narrow"
     },
     {
-      "src": "assets/lazona593.png",
+      "src": "assets/jailson.png",
       "type": "image/png",
       "sizes": "720x540",
       "form_factor": "wide"
@@ -50,8 +50,8 @@
   "related_applications": [
     {
       "platform": "play",
-      "url": "http://play.google.com/store/apps/details?id=com.corporacion.lazona",
-      "id": "com.corporacion.lazona"
+      "url": "https://play.google.com/store/apps/details?id=com.jbcast.jwradio",
+      "id": "com.jbcast.jwradio"
     }
   ]
 }

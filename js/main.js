@@ -440,7 +440,28 @@
         }
     }
 
-    
+    function createOpenTvButton(url) {
+        const $button = document.createElement("button");
+        $button.classList.add("player-button-tv", "btn");
+        $button.innerHTML = icons.tv + "Tv ao vivo";
+        $button.addEventListener("click", () => {
+            playerTvModal.classList.add("is-active");
+            pause(audio);
+            const modalBody = playerTvModal.querySelector(".modal-body-video");
+            const closeButton = playerTvModal.querySelector("[data-close]");
+            const $iframe = document.createElement("iframe");
+            $iframe.src = url;
+            $iframe.allowFullscreen = true;
+            modalBody.appendChild($iframe);
+            closeButton.addEventListener("click", () => {
+                playerTvModal.classList.remove("is-active");
+
+                // al terminar de cerrar el modal, eliminar el iframe
+                $iframe.remove();
+            });
+        });
+        playerTv.appendChild($button);
+    }
 
     function createProgram(program) {
         if (!program) return;
@@ -561,7 +582,9 @@
         if (station.program && playerProgram) {
             createProgram(station.program);
         }
-     
+        if (station.tv_url && playerTv) {
+            createOpenTvButton(station.tv_url);
+        }
     }
 
     // --- [FUNÇÕES DE ATUALIZAÇÃO DE CONTEÚDO] ----------------------- 

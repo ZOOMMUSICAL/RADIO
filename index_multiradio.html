@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,viewport-fit=cover" />
-        <title>ZOOM MUSICAL</title>
+        <title>Multiradio</title>
         <link rel="preconnect" href="https://fonts.googleapis.com/" />
         <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
         <meta name="theme-color" content="dark light" />
@@ -24,35 +24,94 @@
                 timeRefresh: 10000,
                 stations: [
                     {
-                        name: "ZOOM MUSICAL",
-                        hash: "ZOOM MUSICAL",
-                        description: "SIEMPRE LA MEJOR MUSICA",
-                        logo: "assets/jailson_logo.png
+                        name: "Jailson Webradio",
+                        hash: "jailson",
+                        description: "Música sem parar",
+                        logo: "assets/jailson_logo.png",
                         album:
                             "assets/jailson_cover.png",
                         cover:
                             "assets/jailson_cover.png",
                         api: "",
-                        stream_url: "https://stream.zeno.fm/dfxxkhvkxs8uv",
+                        stream_url: "https://stream.zeno.fm/yn65fsaurfhvv",
                         tv_url: "https://eu1.servers10.com:2020/VideoPlayer/8106?autoplay=1",
                         server: "",
                         program: {
                             time: "24/7",
-                            name: "ZOOM MUSICAL ",
-                            description: "ON AIR",
+                            name: "Jailson Web Radio",
+                            description: "AO VIVO // ON AIR",
                         },
                         social: {
-                            whatsapp: "https://wa.me/55seuwhatsApp",
-                            twitter: "https://x.com/",
-                            tiktok: "https://www.tiktok.com/",
-                            youtube: "https://www.youtube.com/",
+                            whatsapp: "",
+                            twitter: "https://twitter.com/",
+                            tiktok: "",
+                            youtube: "",
                             instagram: "https://www.instagram.com/",
                         },
                         apps: {
-                            android: "https://play.google.com/store/apps/details?id=com.radiosweb.app&hl=pt_BR",
+                            android: "https://play.google.com/store/apps/details?id=com.jbcast.jwradio",
                             ios: "",
                         },
-                    },    
+                    },  
+                    {
+                        name: "BENDICIÓN STEREO",
+                        hash: "bendicion",
+                        description: "Bendecidos para bendecir!",
+                        logo: "assets/default_logo.png",
+                        album:
+                            "assets/cover.png",
+                        cover:
+                            "assets/cover.png",
+                        api: "",
+                        stream_url: "https://sv2.globalhostlive.com/proxy/bendistereo/stream2",
+                        tv_url: "https://eu1.servers10.com:2020/VideoPlayer/8106?autoplay=1",
+                        server: "",
+                        program: {
+                            time: "11:00",
+                            name: "Bendición Stereo",
+                            description: "EN VIVO // ON AIR",
+                        },
+                        social: {
+                            facebook: "https://facebook.com/BendicionStereo",
+                            twitter: "https://twitter.com/BendiStereo",
+                            instagram: "https://www.instagram.com/BendiStereo/",
+                        },
+                        apps: {
+                            android: "#",
+                            ios: "#",
+                        },
+                    },  
+                    {
+                        name: "Rádio Capital Fm",
+                        hash: "Capital Fm",
+                        description: "A sua Rádio Pop/Rock!",
+                        logo: "assets/capital_logo.png",
+                        album:
+                            "assets/capitallogo_preto.png",
+                        cover:
+                            "assets/capitallogo_preto.png",
+                        api: "",
+                        stream_url: "https://stm16.xcast.com.br:7208/stream",
+                        //tv_url: "https://eu1.servers10.com:2020/VideoPlayer/8106?autoplay=1",
+                        server: "spotify",
+                        program: {
+                            time: "00:00",
+                            name: "Rádio Capital Fm",
+                            description: "AO VIVO // ON AIR",
+                        },
+                        social: {
+                            facebook: "https://www.facebook.com/CapitalFmRadio/",
+							whatsapp: "https://api.whatsapp.com/send/?phone=5522999080266&text=Ol%C3%A1+tudo+bem%3F&type=phone_number&app_absent=0",
+                            //twitter: "https://twitter.com/",
+                            //tiktok: "",
+                            //youtube: "",
+                            instagram: "https://www.instagram.com/capitalfmradio",
+                        },
+                        apps: {
+                            android: "https://player.xcast.com.br/player-app-multi-plataforma/7208",
+                            ios: "https://player.xcast.com.br/player-app-multi-plataforma/7208",
+                        },
+                    }
                 ],
             };
         </script>
@@ -78,13 +137,13 @@
                             </svg>
                             Historico
                         </button>
-                        <!--button class="btn" data-outside="offcanvas-stations">
+                        <button class="btn" data-outside="offcanvas-stations">
                             <svg class="i i-list" viewBox="0 0 24 24">
                                 <circle cx="12" cy="12" r="2"></circle>
                                 <path d="M5 4.9a10 10 0 0 0 0 14.2M7.8 7.7a6 6 0 0 0 0 8.6m8.4 0a6 6 0 0 0 0-8.6M19 19.1a10 10 0 0 0 0-14.2"></path>
                             </svg>
                             Multiradio
-                        </button-->
+                        </button>
                         <button class="btn l:none" data-outside="mobile-menu">
                             <svg class="i i-bars" viewBox="0 0 24 24">
                                 <path d="M3 6h18M3 12h18M3 18h18"></path>
@@ -122,7 +181,7 @@
                                 </div>
                             </div>
 
-                            <button class="player-button player-button-backward-step" hidden>
+                            <button class="player-button player-button-backward-step">
                                 <svg class="i i-backward-step" viewBox="0 0 24 24">
                                     <path d="M6 5v14M18 4v16L8 12Z"></path>
                                 </svg>
@@ -134,7 +193,7 @@
                                 </svg>
                             </button>
 
-                            <button class="player-button player-button-forward-step" hidden>
+                            <button class="player-button player-button-forward-step">
                                 <svg class="i i-forward-step" viewBox="0 0 24 24">
                                     <path d="M18 5v14M6 4v16l10-8Z"></path>
                                 </svg>
@@ -205,14 +264,13 @@
                         <div class="footer-tv"></div>
                         <div class="footer-app flex wrap g-0.75"></div>
                         <div class="footer-copyright">
-                            <small><strong>© ZOOM MUSICAL-</strong> — zoomradionline@gmail.com</small>
+                            <small><strong>© Jailson Webradio</strong> — contato@jailcon.es</small>
                         </div>
-                    </div>-
+                    </div>
                 </footer>
------
+
                 <div class="player-social flex wrap"></div>
-    -        </div>
-   -     </div>
-    -</body>
-</html->
--
+            </div>
+        </div>
+    </body>
+</html>
