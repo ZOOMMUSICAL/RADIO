@@ -1,7 +1,7 @@
 {
-  "name": "Jailson Webradio",
-  "short_name": "Jailson Webradio",
-  "description": "Música sem Gospel sem parar!",
+  "name": "ZOOM MUSICAL",
+  "short_name": "Zoom Musical",
+  "description": "Siempre la mejor musica",
   "icons": [
     {
       "src": "assets/jailson_cover.png",
@@ -50,7 +50,7 @@
   "related_applications": [
     {
       "platform": "play",
-      "url": "https://play.google.com/store/apps/details?id=com.jbcast.jwradio",
+      "url": "https://play.google.com/",
       "id": "com.jbcast.jwradio"
     }
   ]
