@@ -7,8 +7,8 @@
     --bg-modal: rgb(255 255 255 / 20%);
     --bg-dark: rgb(0 0 0 / 75%);
     --bg-gradient: linear-gradient(140deg, #a92bcd, #439bc1);
-    --color-title: #80039f;
-    --color-text: #80039f;
+    --color-title: #ffffff;
+    --color-text: rgb(255 255 255 / 50%);
     --duration: 0.3s;
     --container: 1480px;
     --spacer: 1rem;
