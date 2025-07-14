@@ -1422,20 +1422,20 @@ strong {
     text-decoration: line-through;
 }
 .player-cover-title {
-    font-size: 2rem; /* Hace el texto más grande */
-    font-weight: 900; /* Negrita fuerte */
-    color: var(--color-title); /* Usa el color blanco que ya tienes definido */
+    font-size: 1.4rem; /* antes 2rem */
+    font-weight: 900;
+    color: var(--color-title);
     text-shadow:
-        2px 2px 4px rgba(0, 0, 0, 0.8), /* sombra negra para contraste */
-        0 0 10px rgba(172, 121, 255, 0.5); /* brillo morado suave */
+        2px 2px 4px rgba(0, 0, 0, 0.8),
+        0 0 10px rgba(172, 121, 255, 0.5);
     margin-bottom: 0.3rem;
 }
 
 .player-cover-artist {
-    font-size: 1.2rem;
+    font-size: 1rem; /* antes 1.2rem */
     font-weight: 700;
     color: var(--color-title);
     text-shadow:
         1px 1px 3px rgba(0, 0, 0, 0.7),
-        0 0 6px rgba(100, 200, 255, 0.4); /* brillo azul suave */
+        0 0 6px rgba(100, 200, 255, 0.4);
 }
