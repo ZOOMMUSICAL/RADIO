@@ -17,7 +17,7 @@
   "start_url": "./?mode=pwa",
   "theme_color": "#0c0b0b",
   "background_color": "0c0b0b", 
-  "orientation": "any", 
+  "orientation": "portrait", 
   "display": "standalone", 
   "display_override": [
     "standalone"
