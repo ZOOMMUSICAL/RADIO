@@ -443,7 +443,7 @@
     function createOpenTvButton(url) {
         const $button = document.createElement("button");
         $button.classList.add("player-button-tv", "btn");
-        $button.innerHTML = icons.tv + "Tv ao vivo";
+        $button.innerHTML = icons.tv + "Tv EN VIVO";
         $button.addEventListener("click", () => {
             playerTvModal.classList.add("is-active");
             pause(audio);
