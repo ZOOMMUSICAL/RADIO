@@ -217,7 +217,10 @@
             document.addEventListener("DOMContentLoaded", function () {
                 const volumeButton = document.querySelector('.player-button-volume-toggle');
                 const volumeDropdown = document.querySelector('#player-volume');
-                
+                const volumeSlider = document.querySelector('.player-volume');
+                const audioElement = new Audio("https://stream.zeno.fm/dfxxkhvkxs8uv");  // URL de la transmisión de audio
+
+                // Toggle the volume dropdown
                 if (volumeButton) {
                     volumeButton.addEventListener('click', function() {
                         if (volumeDropdown.style.display === "block") {
@@ -227,6 +230,15 @@
                         }
                     });
                 }
+
+                // Update the volume
+                volumeSlider.addEventListener('input', function () {
+                    const volume = volumeSlider.value / 100;  // Converting to a value between 0 and 1
+                    audioElement.volume = volume;
+                });
+
+                // Start playing the stream
+                audioElement.play();
             });
         </script>
     </body>
