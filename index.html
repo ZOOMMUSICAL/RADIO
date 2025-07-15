@@ -211,5 +211,23 @@
                 <div class="player-social flex wrap"></div>
             </div>
         </div>
+
+        <script>
+            // Script to handle volume toggle
+            document.addEventListener("DOMContentLoaded", function () {
+                const volumeButton = document.querySelector('.player-button-volume-toggle');
+                const volumeDropdown = document.querySelector('#player-volume');
+                
+                if (volumeButton) {
+                    volumeButton.addEventListener('click', function() {
+                        if (volumeDropdown.style.display === "block") {
+                            volumeDropdown.style.display = "none";
+                        } else {
+                            volumeDropdown.style.display = "block";
+                        }
+                    });
+                }
+            });
+        </script>
     </body>
 </html>
