@@ -92,11 +92,6 @@
                 </div>
             </header>
 
-            <!-- Reproductor de audio agregado -->
-            <audio id="radioPlayer" src="https://stream.zeno.fm/dfxxkhvkxs8uv" autoplay>
-                Your browser does not support the audio element.
-            </audio>
-
             <div class="player song-now scrollbar flex column">
                 <div class="player-wrapper">
                     <div class="player-cover flex column items-center justify-center g-2 items-center">
@@ -118,7 +113,7 @@
                                 </button>
                                 <div class="dropdown" id="player-volume">
                                     <div class="player-range-wrapper">
-                                        <input aria-label="Volume" class="player-volume" max="100" min="0" name="player" type="range" value="80" />
+                                        <input aria-label="Volume" class="player-volume" max="100" min="0" name="player" type="range" value="100" />
                                         <div class="player-range-fill"></div>
                                         <div class="player-range-thumb"></div>
                                     </div>
@@ -216,17 +211,5 @@
                 <div class="player-social flex wrap"></div>
             </div>
         </div>
-
-        <script>
-            const radioPlayer = document.getElementById("radioPlayer");
-            const volumeControl = document.querySelector(".player-volume");
-
-            // Establecer el volumen predeterminado cuando se cargue la página
-            radioPlayer.volume = 0.8;
-
-            volumeControl.addEventListener("input", function () {
-                radioPlayer.volume = volumeControl.value / 100;
-            });
-        </script>
     </body>
 </html>
