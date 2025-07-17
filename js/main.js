@@ -443,7 +443,7 @@
     function createOpenTvButton(url) {
         const $button = document.createElement("button");
         $button.classList.add("player-button-tv", "btn");
-        $button.innerHTML = icons.tv + "Tv EN VIVO";
+        $button.innerHTML = icons.tv + "Tv ao vivo";
         $button.addEventListener("click", () => {
             playerTvModal.classList.add("is-active");
             pause(audio);
@@ -829,75 +829,76 @@
             });
         }
 
-        // --- [CONTROLE DE VOLUME] --------------------------------------
-    
-        const range = document.querySelector(".player-volume");
-        const rangeFill = document.querySelector(".player-range-fill");
-        const rangeWrapper = document.querySelector(".player-range-wrapper");
-        const rangeThumb = document.querySelector(".player-range-thumb");
-        let currentVolume = parseInt(localStorage.getItem("volume") || "100", 10) || 100;
-    
-        // Rango recorrido
-        function setRangeWidth(percent) {
-            rangeFill.style.width = `${percent}%`;
-        }
-    
-        // Posición del thumb
-        function setThumbPosition(percent) {
-            const compensatedWidth = rangeWrapper.offsetWidth - rangeThumb.offsetWidth;
-            const thumbPosition = (percent / 100) * compensatedWidth;
-            rangeThumb.style.left = `${thumbPosition}px`;
-        }
-    
-        // Actualiza el volumen al cambiar el rango
-        function updateVolume(value) {
-            range.value = value;
-            setRangeWidth(value);
-            setThumbPosition(value);
-            localStorage.setItem("volume", value);
-            audio.volume = value / 100;
-        }
-    
-        // Valor inicial
-        if (range !== null) {
-            updateVolume(currentVolume);
-    
-            // Escucha el cambio del rango
-            range.addEventListener("input", (event) => {
-                updateVolume(parseInt(event.target.value, 10));
-            });
-    
-            // Escucha el click en el rango
-            rangeWrapper.addEventListener("mousedown", (event) => {
-                const rangeRect = range.getBoundingClientRect();
-                const clickX = event.clientX - rangeRect.left;
-                const percent = (clickX / range.offsetWidth) * 100;
-                const value = Math.round((range.max - range.min) * (percent / 100)) + parseInt(range.min);
-                updateVolume(value);
-            });
-    
-            // Escucha el movimiento del mouse
-            rangeThumb.addEventListener("mousedown", () => {
-                document.addEventListener("mousemove", handleThumbDrag);
-            });
-        }
-    
-        // Mueve el thumb y actualiza el volumen
-        function handleThumbDrag(event) {
-            const rangeRect = range.getBoundingClientRect();
-            const clickX = event.clientX - rangeRect.left;
-            let percent = (clickX / range.offsetWidth) * 100;
-            percent = Math.max(0, Math.min(100, percent));
-            const value = Math.round((range.max - range.min) * (percent / 100)) + parseInt(range.min);
-            updateVolume(value);
-        }
-    
-        // Deja de escuchar el movimiento del mouse
-        document.addEventListener("mouseup", () => {
-            document.removeEventListener("mousemove", handleThumbDrag);
-        });
-        
-        // --- [FIM DO CONTROLE DE VOLUME] -----------------------------
+       // --- [CONTROLE DE VOLUME] --------------------------------------
+
+const range = document.querySelector(".player-volume");
+const rangeFill = document.querySelector(".player-range-fill");
+const rangeWrapper = document.querySelector(".player-range-wrapper");
+const rangeThumb = document.querySelector(".player-range-thumb");
+let currentVolume = parseInt(localStorage.getItem("volume") || "100", 10) || 100;
+
+// Rango recorrido
+function setRangeWidth(percent) {
+    rangeFill.style.width = `${percent}%`;
+}
+
+// Posición del thumb
+function setThumbPosition(percent) {
+    const compensatedWidth = rangeWrapper.offsetWidth - rangeThumb.offsetWidth;
+    const thumbPosition = (percent / 100) * compensatedWidth;
+    rangeThumb.style.left = `${thumbPosition}px`;
+}
+
+// Actualiza el volumen al cambiar el rango
+function updateVolume(value) {
+    range.value = value;
+    setRangeWidth(value);
+    setThumbPosition(value);
+    localStorage.setItem("volume", value);
+    audio.volume = Math.min(1, (value * 1.5) / 100);  // Ajuste del volumen
+}
+
+// Valor inicial
+if (range !== null) {
+    updateVolume(currentVolume);
+
+    // Escucha el cambio del rango
+    range.addEventListener("input", (event) => {
+        updateVolume(parseInt(event.target.value, 10));
+    });
+
+    // Escucha el click en el rango
+    rangeWrapper.addEventListener("mousedown", (event) => {
+        const rangeRect = range.getBoundingClientRect();
+        const clickX = event.clientX - rangeRect.left;
+        const percent = (clickX / range.offsetWidth) * 100;
+        const value = Math.round((range.max - range.min) * (percent / 100)) + parseInt(range.min);
+        updateVolume(value);
+    });
+
+    // Escucha el movimiento del mouse
+    rangeThumb.addEventListener("mousedown", () => {
+        document.addEventListener("mousemove", handleThumbDrag);
+    });
+}
+
+// Mueve el thumb y actualiza el volumen
+function handleThumbDrag(event) {
+    const rangeRect = range.getBoundingClientRect();
+    const clickX = event.clientX - rangeRect.left;
+    let percent = (clickX / range.offsetWidth) * 100;
+    percent = Math.max(0, Math.min(100, percent));
+    const value = Math.round((range.max - range.min) * (percent / 100)) + parseInt(range.min);
+    updateVolume(value);
+}
+
+// Deja de escuchar el movimiento del mouse
+document.addEventListener("mouseup", () => {
+    document.removeEventListener("mousemove", handleThumbDrag);
+});
+
+// --- [FIM DO CONTROLE DE VOLUME] -----------------------------. 
+
     
     }
 
