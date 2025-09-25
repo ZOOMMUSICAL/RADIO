@@ -7,7 +7,8 @@
   "orientation": "portrait",
   "display": "standalone",
   "start_url": "https://radiozoommusical.blogspot.com/",
-  "scope": "./",
+  "scope": "https://radiozoommusical.blogspot.com/",
+  "id": "/",
   "lang": "es-UY",
   "icons": [
     {
