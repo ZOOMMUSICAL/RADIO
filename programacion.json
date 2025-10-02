@@ -165,21 +165,127 @@
  ],
 
   "3": [
-  { "start": "00:00", "title": "Planeta Terror", "url": "https://ia600209.us.archive.org/33/items/planeta-terror/Planeta%20Terror.mp4" },
-  { "start": "01:50", "title": "Al Juicio Final", "url": "https://ia600507.us.archive.org/33/items/al-juicio-final/cine%20C%20%284%29.ia.mp4" },
-  { "start": "03:40", "title": "Delincuente (1986)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Delincuente%20%281986%29.mp4" },
-  { "start": "05:30", "title": "FUEGO CONTRA FUEGO", "url": "https://dn710006.ca.archive.org/0/items/fuego-con-fuego-fire-with-fire-1986-duncan-gibbins-spa-latino/Fuego%20con%20fuego%20%28Fire%20with%20Fire%29%20%201986%2C%20Duncan%20Gibbins%20Spa%20Latino%20.ia.mp4" },
-  { "start": "07:20", "title": "DETRAS DE OTRO NOSOTROS", "url": "https://dn721806.ca.archive.org/0/items/uno-detras-de-otro-uno-dopo-laltro-1969-nick-nostro-spa/Uno%20detr%C3%A1s%20de%20otro%20%28Uno%20dopo%20l%27altro%29%201969%2C%20Nick%20Nostro%20%20SPA.mp4" },
-  { "start": "09:10", "title": "El Inocente (1956)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/El%20inocente%20%281956%29.mp4" },
-  { "start": "11:00", "title": "Fuego con Fuego (1986, Duncan Gibbins)", "url": "https://dn710006.ca.archive.org/0/items/fuego-con-fuego-fire-with-fire-1986-duncan-gibbins-spa-latino/Fuego%20con%20fuego%20%28Fire%20with%20Fire%29%20%201986%2C%20Duncan%20Gibbins%20Spa%20Latino%20.ia.mp4" },
-  { "start": "12:50", "title": "ALCANZAR UNA ESTRELLA", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Mas%20que%20alcanzar%20una%20estrella%20%281992%29.mp4" },
-  { "start": "14:40", "title": "Comando Especial", "url": "https://ia803406.us.archive.org/15/items/comando-especial_202106/Comando%20Especial.mp4" },
-  { "start": "16:30", "title": "La chica de al lado", "url": "https://dn710203.ca.archive.org/0/items/chica-de-alado/chica%20de%20alado.mp4" },
-  { "start": "18:20", "title": "ESPECIES", "url": "https://dn721804.ca.archive.org/0/items/species_202310/species.mp4" },
-  { "start": "20:10", "title": "Rojo Amanecer (1989)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Rojo%20amanecer%20%281989%29.mp4" },
-  { "start": "22:00", "title": "Cine C (2)", "url": "https://ia600300.us.archive.org/17/items/cine-c-2/cine%20C%20%282%29.ia.mp4" },
-  { "start": "23:50", "title": "Las bromas más locas y elaboradas", "url": "https://ia601608.us.archive.org/25/items/las-bromas-mas-locas-y-elaboradas-que-veras-2-bromas-increibles/Las%20bromas%20m%C3%A1s%20locas%20y%20elaboradas%20que%20ver%C3%A1s%202%20_%20Bromas%20incre%C3%ADbles.mp4" }
- ],
+  {
+    "start": "00:00",
+    "duration": "01:24:10",
+    "url": "https://dn721807.ca.archive.org/0/items/ver-con-el-diablo-adentro-2012/Ver%20Con%20el%20diablo%20adentro%202012.ia.mp4",
+    "title": "Ver Con el diablo adentro 2012.ia"
+  },
+  {
+    "start": "01:24",
+    "duration": "01:24:57",
+    "url": "https://ia600601.us.archive.org/34/items/ver-el-espiritu-de-las-tinieblas-2022/Ver%20El%20espiritu%20de%20las%20tinieblas%202022.mp4",
+    "title": "Ver El espiritu de las tinieblas 2022"
+  },
+  {
+    "start": "02:49",
+    "duration": "01:42:45",
+    "url": "https://ia903103.us.archive.org/24/items/ver-el-demonio-entre-nosotros-2023/Ver%20El%20demonio%20entre%20nosotros%202023.mp4",
+    "title": "Ver El demonio entre nosotros 2023"
+  },
+  {
+    "start": "04:31",
+    "duration": "01:56:51",
+    "url": "https://dn710205.ca.archive.org/0/items/ver-el-club-de-los-vandalos/Ver%20El%20club%20de%20los%20v%C3%A1ndalos.mp4",
+    "title": "Ver El club de los vándalos"
+  },
+  {
+    "start": "06:28",
+    "duration": "01:34:27",
+    "url": "https://dn721906.ca.archive.org/0/items/pequena-flor/peque%C3%B1a%20flor.mp4",
+    "title": "pequeña flor"
+  },
+  {
+    "start": "08:03",
+    "duration": "01:36:24",
+    "url": "https://dn721809.ca.archive.org/0/items/ver-el-nino-del-bosque/Ver%20El%20ni%C3%B1o%20del%20bosque.mp4",
+    "title": "Ver El niño del bosque"
+  },
+  {
+    "start": "09:39",
+    "duration": "01:31:00",
+    "url": "https://ia800309.us.archive.org/22/items/ver-hotel-royal-2023/Ver%20Hotel%20Royal%202023.mp4",
+    "title": "Ver Hotel Royal 2023"
+  },
+  {
+    "start": "11:10",
+    "duration": "01:20:36",
+    "url": "https://dn710208.ca.archive.org/0/items/terremoto_202407/terremoto.mp4",
+    "title": "terremoto"
+  },
+  {
+    "start": "12:31",
+    "duration": "00:24:07",
+    "url": "https://dn710206.ca.archive.org/0/items/oscuridad90/01x08.mp4",
+    "title": "01x08"
+  },
+  {
+    "start": "12:55",
+    "duration": "00:06:38",
+    "url": "https://dn721806.ca.archive.org/0/items/CoyoteyCorrecaminos/1956%20Coyote%20y%20Correcaminos%20There%20They%20Go-Go-Go%20Cla.mp4",
+    "title": "1956 Coyote y Correcaminos There They Go-Go-Go Cla"
+  },
+  {
+    "start": "13:01",
+    "duration": "00:06:43",
+    "url": "https://dn721806.ca.archive.org/0/items/CoyoteyCorrecaminos/1955%20Coyote%20y%20Correcaminos%20Guided%20muscle%20Cla.mp4",
+    "title": "1955 Coyote y Correcaminos Guided muscle Cla"
+  },
+  {
+    "start": "13:08",
+    "duration": "00:06:20",
+    "url": "https://dn721806.ca.archive.org/0/items/CoyoteyCorrecaminos/1966%20Coyote%20y%20Correcaminos%20Clippety%20Clobbered%20Cla.mp4",
+    "title": "1966 Coyote y Correcaminos Clippety Clobbered Cla"
+  },
+  {
+    "start": "13:14",
+    "duration": "01:28:19",
+    "url": "https://dn721804.ca.archive.org/0/items/ver-codigo-terror-2022/Ver%20C%C3%B3digo%20Terror%202022.mp4",
+    "title": "Ver Código Terror 2022"
+  },
+  {
+    "start": "14:43",
+    "duration": "01:32:36",
+    "url": "https://dn721607.ca.archive.org/0/items/ver-desaparecidos-en-la-noche-2024/Ver%20Desaparecidos%20en%20la%20noche%202024.mp4",
+    "title": "Ver Desaparecidos en la noche 2024"
+  },
+  {
+    "start": "16:15",
+    "duration": "01:33:49",
+    "url": "https://dn710206.ca.archive.org/0/items/unicorn_202407/unicorn.mp4",
+    "title": "unicorn"
+  },
+  {
+    "start": "17:49",
+    "duration": "01:30:37",
+    "url": "https://dn721807.ca.archive.org/0/items/ver-como-tener-sexo-2023/Ver%20C%C3%B3mo%20Tener%20Sexo%202023.mp4",
+    "title": "Ver Cómo Tener Sexo 2023"
+  },
+  {
+    "start": "19:20",
+    "duration": "01:23:24",
+    "url": "https://dn720403.ca.archive.org/0/items/la-masacre-de-texas-peli-cula-completa/LA%20MASACRE%20DE%20TEXAS%20-%20PEL%C3%8DCULA%20COMPLETA.mp4",
+    "title": "LA MASACRE DE TEXAS - PELÍCULA COMPLETA"
+  },
+  {
+    "start": "20:43",
+    "duration": "01:24:10",
+    "url": "https://dn721807.ca.archive.org/0/items/ver-con-el-diablo-adentro-2012/Ver%20Con%20el%20diablo%20adentro%202012.ia.mp4",
+    "title": "Ver Con el diablo adentro 2012.ia"
+  },
+  {
+    "start": "22:07",
+    "duration": "01:24:57",
+    "url": "https://ia600601.us.archive.org/34/items/ver-el-espiritu-de-las-tinieblas-2022/Ver%20El%20espiritu%20de%20las%20tinieblas%202022.mp4",
+    "title": "Ver El espiritu de las tinieblas 2022"
+  },
+  {
+    "start": "23:32",
+    "duration": "00:11:58",
+    "url": "https://ia601608.us.archive.org/25/items/las-bromas-mas-locas-y-elaboradas-que-veras-2-bromas-increibles/Las%20bromas%20m%C3%A1s%20locas%20y%20elaboradas%20que%20ver%C3%A1s%202%20_%20Bromas%20incre%C3%ADbles.mp4",
+    "title": "Las bromas más locas y elaboradas que verás 2 _ Bromas increíbles"
+  }
+],
 
   "4": [
   {
@@ -571,6 +677,7 @@
 }
 ]
 }
+
 
 
 
