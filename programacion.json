@@ -1,20 +1,151 @@
 {
   "1": [
-  { "start": "00:00", "title": "La chica de al lado", "url": "https://dn710203.ca.archive.org/0/items/chica-de-alado/chica%20de%20alado.mp4" },
-  { "start": "01:50", "title": "Lo que le pasó a Sansón (1955)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Lo%20que%20le%20paso%CC%81%20a%20Sanso%CC%81n%20%281955%29.mp4" },
-  { "start": "03:40", "title": "Delincuente (1986)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Delincuente%20%281986%29.mp4" },
-  { "start": "05:30", "title": "El Analfabeto (Cantinflas, 1961)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/El%20Analfabeto%20%28Cantinflas%2C%201961%29.mp4" },
-  { "start": "07:20", "title": "Campeón sin Corona", "url": "https://ia903206.us.archive.org/10/items/campeon-sin-corona_202202/CAMPEON_SIN_CORONA.mp4" },
-  { "start": "09:10", "title": "El Inocente (1956)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/El%20inocente%20%281956%29.mp4" },
-  { "start": "11:00", "title": "Fuego con Fuego (1986, Duncan Gibbins)", "url": "https://dn710006.ca.archive.org/0/items/fuego-con-fuego-fire-with-fire-1986-duncan-gibbins-spa-latino/Fuego%20con%20fuego%20%28Fire%20with%20Fire%29%20%201986%2C%20Duncan%20Gibbins%20Spa%20Latino%20.ia.mp4" },
-  { "start": "12:50", "title": "El Gato con Botas (1960)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/El%20gato%20con%20botas%20%281960%29.mp4" },
-  { "start": "14:40", "title": "Comando Especial 2", "url": "https://ia804502.us.archive.org/30/items/comando-especial-2_202106/Comando%20Especial%202.mp4" },
-  { "start": "16:30", "title": "Ni Chana ni Juana", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Ni%20Chana%20ni%20Juana.mp4" },
-  { "start": "18:20", "title": "Un Milagro en el Circo (Cepillín)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Un%20milagro%20en%20el%20Circo%20-%20Cepillin.mp4" },
-  { "start": "20:10", "title": "Rojo Amanecer (1989)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Rojo%20amanecer%20%281989%29.mp4" },
-  { "start": "22:00", "title": "No vayas a colgar", "url": "https://ia600202.us.archive.org/20/items/no-ballas-a-colgar/No%20ballas%20a%20colgar.mp4" },
-  { "start": "23:50", "title": "Las bromas más locas y elaboradas", "url": "https://ia601608.us.archive.org/25/items/las-bromas-mas-locas-y-elaboradas-que-veras-2-bromas-increibles/Las%20bromas%20m%C3%A1s%20locas%20y%20elaboradas%20que%20ver%C3%A1s%202%20_%20Bromas%20incre%C3%ADbles.mp4" }
- ],
+ 
+  {
+    "start": "00:00",
+    "duration": "01:24:10",
+    "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Lo%20que%20le%20paso%CC%81%20a%20Sanso%CC%81n%20%281955%29.mp4",
+    "title": "Lo que le pasó a Sansón (1955)"
+  },
+  {
+    "start": "01:24",
+    "duration": "01:50:15",
+    "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/El%20Analfabeto%20%28Cantinflas%2C%201961%29.mp4",
+    "title": "El Analfabeto (Cantinflas, 1961)"
+  },
+  {
+    "start": "03:14",
+    "duration": "01:51:20",
+    "url": "https://ia903206.us.archive.org/10/items/campeon-sin-corona_202202/CAMPEON_SIN_CORONA.mp4",
+    "title": "CAMPEON_SIN_CORONA"
+  },
+  {
+    "start": "05:05",
+    "duration": "01:38:28",
+    "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Ni%20Chana%20ni%20Juana.mp4",
+    "title": "Ni Chana ni Juana"
+  },
+  {
+    "start": "06:44",
+    "duration": "01:28:40",
+    "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/El%20gato%20con%20botas%20%281960%29.mp4",
+    "title": "El gato con botas (1960)"
+  },
+  {
+    "start": "08:12",
+    "duration": "01:51:56",
+    "url": "https://ia804502.us.archive.org/30/items/comando-especial-2_202106/Comando%20Especial%202.mp4",
+    "title": "Comando Especial 2"
+  },
+  {
+    "start": "10:04",
+    "duration": "01:23:15",
+    "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Un%20milagro%20en%20el%20Circo%20-%20Cepillin.mp4",
+    "title": "Un milagro en el Circo - Cepillin"
+  },
+  {
+    "start": "11:28",
+    "duration": "00:11:58",
+    "url": "https://ia601608.us.archive.org/25/items/las-bromas-mas-locas-y-elaboradas-que-veras-2-bromas-increibles/Las%20bromas%20m%C3%A1s%20locas%20y%20elaboradas%20que%20ver%C3%A1s%202%20_%20Bromas%20incre%C3%ADbles.mp4",
+    "title": "Las bromas más locas y elaboradas que verás 2 _ Bromas increíbles"
+  },
+  {
+    "start": "11:40",
+    "duration": "00:47:31",
+    "url": "https://dn720003.ca.archive.org/0/items/magnificos/T1x05.mp4",
+    "title": "T1x05"
+  },
+  {
+    "start": "12:27",
+    "duration": "00:23:59",
+    "url": "https://dn721604.ca.archive.org/0/items/GordonShumway/S01.E05.mp4",
+    "title": "S01.E05"
+  },
+  {
+    "start": "12:51",
+    "duration": "00:21:04",
+    "url": "https://dn721805.ca.archive.org/0/items/Beakman92/S01E06%20Beakman%20-%20Jab%C3%B3n%2C%20Beakman%C3%ADa%20y%20Motores.mp4",
+    "title": "S01E06 Beakman - Jabón, Beakmanía y Motores"
+  },
+  {
+    "start": "13:12",
+    "duration": "00:06:25",
+    "url": "https://dn721806.ca.archive.org/0/items/CoyoteyCorrecaminos/1952%20Coyote%20y%20Correcaminos%20Going%21%20Goin%21%20Gosh%21%20Cla.mp4",
+    "title": "1952 Coyote y Correcaminos Going! Goin! Gosh! Cla"
+  },
+  {
+    "start": "13:19",
+    "duration": "00:06:33",
+    "url": "https://dn721806.ca.archive.org/0/items/CoyoteyCorrecaminos/1966%20Coyote%20y%20Correcaminos%20Shot%20And%20Bothered%20Cla.mp4",
+    "title": "1966 Coyote y Correcaminos Shot And Bothered Cla"
+  },
+  {
+    "start": "13:25",
+    "duration": "00:24:03",
+    "url": "https://dn710206.ca.archive.org/0/items/oscuridad90/01x05.mp4",
+    "title": "01x05"
+  },
+  {
+    "start": "13:49",
+    "duration": "00:23:51",
+    "url": "https://ia902300.us.archive.org/33/items/Garfield98/003%20-%20Noche%20de%20Pesadillas.mp4",
+    "title": "003 - Noche de Pesadillas"
+  },
+  {
+    "start": "14:13",
+    "duration": "01:50:15",
+    "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/El%20Analfabeto%20%28Cantinflas%2C%201961%29.mp4",
+    "title": "El Analfabeto (Cantinflas, 1961)"
+  },
+  {
+    "start": "16:03",
+    "duration": "01:38:28",
+    "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Ni%20Chana%20ni%20Juana.mp4",
+    "title": "Ni Chana ni Juana"
+  },
+  {
+    "start": "17:42",
+    "duration": "01:51:56",
+    "url": "https://ia804502.us.archive.org/30/items/comando-especial-2_202106/Comando%20Especial%202.mp4",
+    "title": "Comando Especial 2"
+  },
+  {
+    "start": "19:34",
+    "duration": "01:23:15",
+    "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Un%20milagro%20en%20el%20Circo%20-%20Cepillin.mp4",
+    "title": "Un milagro en el Circo - Cepillin"
+  },
+  {
+    "start": "20:57",
+    "duration": "00:06:24",
+    "url": "https://dn721806.ca.archive.org/0/items/CoyoteyCorrecaminos/1965%20Coyote%20y%20Correcaminos%20Road%20Runner%20a%20Go-Go%20Ing.mp4",
+    "title": "1965 Coyote y Correcaminos Road Runner a Go-Go Ing"
+  },
+  {
+    "start": "21:03",
+    "duration": "00:24:03",
+    "url": "https://dn710206.ca.archive.org/0/items/oscuridad90/01x05.mp4",
+    "title": "01x05"
+  },
+  {
+    "start": "21:27",
+    "duration": "00:47:54",
+    "url": "https://ia801501.us.archive.org/3/items/chps-t-1-c-17-series-retro.com/CHPS%20-%20T1%20C19%20-%20SeriesRetro.com.ia.mp4",
+    "title": "CHPS - T1 C19 - SeriesRetro.com.ia"
+  },
+  {
+    "start": "22:15",
+    "duration": "01:31:59",
+    "url": "https://ia800507.us.archive.org/33/items/al-juicio-final/Al%20juicio%20final.mp4",
+    "title": "Al juicio final"
+  },
+  {
+    "start": "23:47",
+    "duration": "00:11:58",
+    "url": "https://ia601608.us.archive.org/25/items/las-bromas-mas-locas-y-elaboradas-que-veras-2-bromas-increibles/Las%20bromas%20m%C3%A1s%20locas%20y%20elaboradas%20que%20ver%C3%A1s%202%20_%20Bromas%20incre%C3%ADbles.mp4",
+    "title": "Las bromas más locas y elaboradas que verás 2 _ Bromas increíbles"
+  }
+],
 
  "2": [
   { "start": "00:00", "title": "Vacaciones de Terror (1989)", "url": "https://ia800806.us.archive.org/11/items/vacaciones-de-terror-1989/Vacaciones%20de%20Terror%20-%20%281989%29.mp4" },
@@ -144,59 +275,298 @@
 ],
 
  "5": [
-  { "start": "00:00", "title": "La chica de al lado", "url": "https://dn710203.ca.archive.org/0/items/chica-de-alado/chica%20de%20alado.mp4" },
-  { "start": "01:50", "title": "Lo que le pasó a Sansón (1955)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Lo%20que%20le%20paso%CC%81%20a%20Sanso%CC%81n%20%281955%29.mp4" },
-  { "start": "03:40", "title": "Delincuente (1986)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Delincuente%20%281986%29.mp4" },
-  { "start": "05:30", "title": "El Analfabeto (Cantinflas, 1961)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/El%20Analfabeto%20%28Cantinflas%2C%201961%29.mp4" },
-  { "start": "07:20", "title": "Campeón sin corona", "url": "https://ia903206.us.archive.org/10/items/campeon-sin-corona_202202/CAMPEON_SIN_CORONA.mp4" },
-  { "start": "09:10", "title": "El inocente (1956)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/El%20inocente%20%281956%29.mp4" },
-  { "start": "11:00", "title": "Fuego con fuego (Fire with Fire, 1986)", "url": "https://dn710006.ca.archive.org/0/items/fuego-con-fuego-fire-with-fire-1986-duncan-gibbins-spa-latino/Fuego%20con%20fuego%20%28Fire%20with%20Fire%29%20%201986%2C%20Duncan%20Gibbins%20Spa%20Latino%20.ia.mp4" },
-  { "start": "12:50", "title": "El gato con botas (1960)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/El%20gato%20con%20botas%20%281960%29.mp4" },
-  { "start": "14:40", "title": "Comando Especial", "url": "https://ia803406.us.archive.org/15/items/comando-especial_202106/Comando%20Especial.mp4" },
-  { "start": "16:30", "title": "Ni Chana ni Juana", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Ni%20Chana%20ni%20Juana.mp4" },
-  { "start": "18:20", "title": "Un milagro en el circo (Cepillín)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Un%20milagro%20en%20el%20Circo%20-%20Cepillin.mp4" },
-  { "start": "20:10", "title": "Rojo amanecer (1989)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Rojo%20amanecer%20%281989%29.mp4" },
-  { "start": "22:00", "title": "Video (2023)", "url": "https://ia904503.us.archive.org/0/items/video_20230714/Video.ia.mp4" },
-  { "start": "23:50", "title": "Las bromas más locas e increíbles", "url": "https://ia601608.us.archive.org/25/items/las-bromas-mas-locas-y-elaboradas-que-veras-2-bromas-increibles/Las%20bromas%20m%C3%A1s%20locas%20y%20elaboradas%20que%20ver%C3%A1s%202%20_%20Bromas%20incre%C3%ADbles.mp4" }
- ],
+   {
+    "start": "00:00",
+    "duration": "01:21:03",
+    "url": "https://ia800806.us.archive.org/11/items/vacaciones-de-terror-1989/Vacaciones%20de%20Terror%20-%20%281989%29.mp4",
+    "title": "Vacaciones de Terror - (1989)"
+  },
+  {
+    "start": "01:21",
+    "duration": "01:38:39",
+    "url": "https://ia800304.us.archive.org/27/items/alla-en-el-rancho-grande/All%C3%A1%20en%20el%20rancho%20grande.mp4",
+    "title": "Allá en el rancho grande"
+  },
+  {
+    "start": "02:59",
+    "duration": "01:37:27",
+    "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Delincuente%20%281986%29.mp4",
+    "title": "Delincuente (1986)"
+  },
+  {
+    "start": "04:37",
+    "duration": "01:38:25",
+    "url": "https://dn720406.ca.archive.org/0/items/la-otra-1946-hd/La%20Otra%20-%20%281946%29%20-%20HD.ia.mp4",
+    "title": "La Otra - (1946) - HD.ia"
+  },
+  {
+    "start": "06:15",
+    "duration": "01:50:35",
+    "url": "https://dn720404.ca.archive.org/0/items/matrimonio-es-como-el-demonio-el-1969-01-30/Matrimonio%20es%20como%20el%20demonio%2C%20El%20-%20%281969%2001%2030%29.ia.mp4",
+    "title": "Matrimonio es como el demonio, El - (1969 01 30).ia"
+  },
+  {
+    "start": "08:06",
+    "duration": "01:53:26",
+    "url": "https://ia902908.us.archive.org/2/items/rapina.-1975/Rapina.%281975%29.mp4",
+    "title": "Rapina.(1975)"
+  },
+  {
+    "start": "09:59",
+    "duration": "01:30:11",
+    "url": "https://dn720409.ca.archive.org/0/items/que-dios-me-perdone-1948/Que%20Dios%20me%20perdone%20-%20%281948%29.ia.mp4",
+    "title": "Que Dios me perdone - (1948).ia"
+  },
+  {
+    "start": "11:29",
+    "duration": "01:36:01",
+    "url": "https://dn720300.ca.archive.org/0/items/isla-para-dos-1959/Isla%20para%20dos%20-%20%281959%29.mp4",
+    "title": "Isla para dos - (1959)"
+  },
+  {
+    "start": "13:05",
+    "duration": "01:49:37",
+    "url": "https://ia803406.us.archive.org/15/items/comando-especial_202106/Comando%20Especial.mp4",
+    "title": "Comando Especial"
+  },
+  {
+    "start": "14:55",
+    "duration": "01:25:37",
+    "url": "https://dn720302.ca.archive.org/0/items/nino-y-el-muro-el-1965-mx/Ni%C3%B1o%20y%20el%20muro%2C%20El%20%281965%29%20MX.ia.mp4",
+    "title": "Niño y el muro, El (1965) MX.ia"
+  },
+  {
+    "start": "16:21",
+    "duration": "01:35:31",
+    "url": "https://ia801309.us.archive.org/13/items/barbara-1974-julian-soler/B%C3%A1rbara%20%281974%29%20%20Julian%20Soler.ia.mp4",
+    "title": "Bárbara (1974)  Julian Soler.ia"
+  },
+  {
+    "start": "17:56",
+    "duration": "00:48:11",
+    "url": "https://dn720003.ca.archive.org/0/items/magnificos/T1x06.mp4",
+    "title": "T1x06"
+  },
+  {
+    "start": "18:44",
+    "duration": "00:24:05",
+    "url": "https://dn710206.ca.archive.org/0/items/oscuridad90/01x02.mp4",
+    "title": "01x02"
+  },
+  {
+    "start": "19:08",
+    "duration": "00:06:43",
+    "url": "https://dn721806.ca.archive.org/0/items/CoyoteyCorrecaminos/1955%20Coyote%20y%20Correcaminos%20Guided%20muscle%20Cla.mp4",
+    "title": "1955 Coyote y Correcaminos Guided muscle Cla"
+  },
+  {
+    "start": "19:15",
+    "duration": "02:21:52",
+    "url": "https://dn721802.ca.archive.org/0/items/the-killing-fields-los-gritos-del-silencio-1984-roland-joffe-spa-latino/The%20Killing%20Fields%20%28Los%20gritos%20del%20silencio%29%201984%2C%20Roland%20Joff%C3%A9%20%20Spa%20Latino%20%20.ia.mp4",
+    "title": "The Killing Fields (Los gritos del silencio) 1984, Roland Joffé  Spa Latino  .ia"
+  },
+  {
+    "start": "21:37",
+    "duration": "00:11:58",
+    "url": "https://ia601608.us.archive.org/25/items/las-bromas-mas-locas-y-elaboradas-que-veras-2-bromas-increibles/Las%20bromas%20m%C3%A1s%20locas%20y%20elaboradas%20que%20ver%C3%A1s%202%20_%20Bromas%20incre%C3%ADbles.mp4",
+    "title": "Las bromas más locas y elaboradas que verás 2 _ Bromas increíbles"
+  },
+  {
+    "start": "21:49",
+    "duration": "01:21:03",
+    "url": "https://ia800806.us.archive.org/11/items/vacaciones-de-terror-1989/Vacaciones%20de%20Terror%20-%20%281989%29.mp4",
+    "title": "Vacaciones de Terror - (1989)"
+  }
+],
 
  "6": [
-  { "start": "00:00", "title": "Locas vacaciones sobre ruedas", "url": "https://dn721607.ca.archive.org/0/items/locas-vacaciones-sobre-ruedas_202403/locas%20vacaciones%20sobre%20ruedas.mp4" },
-  { "start": "01:50", "title": "Lo que le pasó a Sansón (1955)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Lo%20que%20le%20paso%CC%81%20a%20Sanso%CC%81n%20%281955%29.mp4" },
-  { "start": "03:40", "title": "Delincuente (1986)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Delincuente%20%281986%29.mp4" },
-  { "start": "05:30", "title": "El Analfabeto (Cantinflas, 1961)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/El%20Analfabeto%20%28Cantinflas%2C%201961%29.mp4" },
-  { "start": "07:20", "title": "Campeón sin corona", "url": "https://ia903206.us.archive.org/10/items/campeon-sin-corona_202202/CAMPEON_SIN_CORONA.mp4" },
-  { "start": "09:10", "title": "El inocente (1956)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/El%20inocente%20%281956%29.mp4" },
-  { "start": "11:00", "title": "Fuego con fuego (Fire with Fire, 1986)", "url": "https://dn710006.ca.archive.org/0/items/fuego-con-fuego-fire-with-fire-1986-duncan-gibbins-spa-latino/Fuego%20con%20fuego%20%28Fire%20with%20Fire%29%20%201986%2C%20Duncan%20Gibbins%20Spa%20Latino%20.ia.mp4" },
-  { "start": "12:50", "title": "El gato con botas (1960)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/El%20gato%20con%20botas%20%281960%29.mp4" },
-  { "start": "14:40", "title": "Comando Especial", "url": "https://ia803406.us.archive.org/15/items/comando-especial_202106/Comando%20Especial.mp4" },
-  { "start": "16:30", "title": "Ni Chana ni Juana", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Ni%20Chana%20ni%20Juana.mp4" },
-  { "start": "18:20", "title": "Un milagro en el circo (Cepillín)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Un%20milagro%20en%20el%20Circo%20-%20Cepillin.mp4" },
-  { "start": "20:10", "title": "Rojo amanecer (1989)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Rojo%20amanecer%20%281989%29.mp4" },
-  { "start": "22:00", "title": "Planeta Terror", "url": "https://ia600209.us.archive.org/33/items/planeta-terror/Planeta%20Terror.mp4" },
-  { "start": "23:50", "title": "Las bromas más locas e increíbles", "url": "https://ia601608.us.archive.org/25/items/las-bromas-mas-locas-y-elaboradas-que-veras-2-bromas-increibles/Las%20bromas%20m%C3%A1s%20locas%20y%20elaboradas%20que%20ver%C3%A1s%202%20_%20Bromas%20incre%C3%ADbles.mp4" }
- ],
+  {
+    "start": "00:00",
+    "duration": "01:45:33",
+    "url": "https://ia600209.us.archive.org/33/items/planeta-terror/Planeta%20Terror.mp4",
+    "title": "Planeta Terror"
+  },
+  {
+    "start": "01:45",
+    "duration": "00:23:37",
+    "url": "https://dn710206.ca.archive.org/0/items/oscuridad90/01x04.mp4",
+    "title": "01x04"
+  },
+  {
+    "start": "02:09",
+    "duration": "01:28:24",
+    "url": "https://ia600507.us.archive.org/33/items/al-juicio-final/cine%20C%20%284%29.ia.mp4",
+    "title": "cine C (4).ia"
+  },
+  {
+    "start": "03:37",
+    "duration": "00:23:51",
+    "url": "https://ia802300.us.archive.org/33/items/Garfield98/002%20-%20Caja%20de%20Fantas%C3%ADa.mp4",
+    "title": "002 - Caja de Fantasía"
+  },
+  {
+    "start": "04:01",
+    "duration": "01:37:27",
+    "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Delincuente%20%281986%29.mp4",
+    "title": "Delincuente (1986)"
+  },
+  {
+    "start": "05:38",
+    "duration": "01:44:06",
+    "url": "https://dn710006.ca.archive.org/0/items/fuego-con-fuego-fire-with-fire-1986-duncan-gibbins-spa-latino/Fuego%20con%20fuego%20%28Fire%20with%20Fire%29%20%201986%2C%20Duncan%20Gibbins%20Spa%20Latino%20.ia.mp4",
+    "title": "Fuego con fuego (Fire with Fire)  1986, Duncan Gibbins Spa Latino .ia"
+  },
+  {
+    "start": "07:22",
+    "duration": "01:41:01",
+    "url": "https://dn721806.ca.archive.org/0/items/uno-detras-de-otro-uno-dopo-laltro-1969-nick-nostro-spa/Uno%20detr%C3%A1s%20de%20otro%20%28Uno%20dopo%20l%27altro%29%201969%2C%20Nick%20Nostro%20%20SPA.mp4",
+    "title": "Uno detrás de otro (Uno dopo l'altro) 1969, Nick Nostro  SPA"
+  },
+  {
+    "start": "09:03",
+    "duration": "01:44:06",
+    "url": "https://dn710006.ca.archive.org/0/items/fuego-con-fuego-fire-with-fire-1986-duncan-gibbins-spa-latino/Fuego%20con%20fuego%20%28Fire%20with%20Fire%29%20%201986%2C%20Duncan%20Gibbins%20Spa%20Latino%20.ia.mp4",
+    "title": "Fuego con fuego (Fire with Fire)  1986, Duncan Gibbins Spa Latino .ia"
+  },
+  {
+    "start": "10:48",
+    "duration": "01:37:32",
+    "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Mas%20que%20alcanzar%20una%20estrella%20%281992%29.mp4",
+    "title": "Mas que alcanzar una estrella (1992)"
+  },
+  {
+    "start": "12:25",
+    "duration": "01:45:33",
+    "url": "https://ia600209.us.archive.org/33/items/planeta-terror/Planeta%20Terror.mp4",
+    "title": "Planeta Terror"
+  },
+  {
+    "start": "14:11",
+    "duration": "01:28:24",
+    "url": "https://ia600507.us.archive.org/33/items/al-juicio-final/cine%20C%20%284%29.ia.mp4",
+    "title": "cine C (4).ia"
+  },
+  {
+    "start": "15:39",
+    "duration": "01:49:37",
+    "url": "https://ia803406.us.archive.org/15/items/comando-especial_202106/Comando%20Especial.mp4",
+    "title": "Comando Especial"
+  },
+  {
+    "start": "17:29",
+    "duration": "01:49:28",
+    "url": "https://dn710203.ca.archive.org/0/items/chica-de-alado/chica%20de%20alado.mp4",
+    "title": "chica de alado"
+  },
+  {
+    "start": "19:18",
+    "duration": "01:48:26",
+    "url": "https://dn721804.ca.archive.org/0/items/species_202310/species.mp4",
+    "title": "species"
+  },
+  {
+    "start": "21:07",
+    "duration": "02:12:20",
+    "url": "https://ia600300.us.archive.org/17/items/cine-c-2/cine%20C%20%282%29.ia.mp4",
+    "title": "cine C (2).ia"
+  },
+  {
+    "start": "23:19",
+    "duration": "00:11:58",
+    "url": "https://ia601608.us.archive.org/25/items/las-bromas-mas-locas-y-elaboradas-que-veras-2-bromas-increibles/Las%20bromas%20m%C3%A1s%20locas%20y%20elaboradas%20que%20ver%C3%A1s%202%20_%20Bromas%20incre%C3%ADbles.mp4",
+    "title": "Las bromas más locas y elaboradas que verás 2 _ Bromas increíbles"
+  }
+],
 
 "7": [
-  { "start": "00:00", "title": "Cinemex", "url": "https://dn721604.ca.archive.org/0/items/cinemex_202403/cinemex.mp4" },
-  { "start": "01:50", "title": "Lo que le pasó a Sansón (1955)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Lo%20que%20le%20paso%CC%81%20a%20Sanso%CC%81n%20%281955%29.mp4" },
-  { "start": "03:40", "title": "Delincuente (1986)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Delincuente%20%281986%29.mp4" },
-  { "start": "05:30", "title": "El Analfabeto (Cantinflas, 1961)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/El%20Analfabeto%20%28Cantinflas%2C%201961%29.mp4" },
-  { "start": "07:20", "title": "Campeón sin corona", "url": "https://ia903206.us.archive.org/10/items/campeon-sin-corona_202202/CAMPEON_SIN_CORONA.mp4" },
-  { "start": "09:10", "title": "El inocente (1956)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/El%20inocente%20%281956%29.mp4" },
-  { "start": "11:00", "title": "Fuego con fuego (Fire with Fire, 1986)", "url": "https://dn710006.ca.archive.org/0/items/fuego-con-fuego-fire-with-fire-1986-duncan-gibbins-spa-latino/Fuego%20con%20fuego%20%28Fire%20with%20Fire%29%20%201986%2C%20Duncan%20Gibbins%20Spa%20Latino%20.ia.mp4" },
-  { "start": "12:50", "title": "El gato con botas (1960)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/El%20gato%20con%20botas%20%281960%29.mp4" },
-  { "start": "14:40", "title": "Comando Especial", "url": "https://ia803406.us.archive.org/15/items/comando-especial_202106/Comando%20Especial.mp4" },
-  { "start": "16:30", "title": "Ni Chana ni Juana", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Ni%20Chana%20ni%20Juana.mp4" },
-  { "start": "18:20", "title": "Un milagro en el circo (Cepillín)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Un%20milagro%20en%20el%20Circo%20-%20Cepillin.mp4" },
-  { "start": "20:10", "title": "Rojo amanecer (1989)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Rojo%20amanecer%20%281989%29.mp4" },
-  { "start": "22:00", "title": "Vacaciones de terror (1989)", "url": "https://ia800806.us.archive.org/11/items/vacaciones-de-terror-1989/Vacaciones%20de%20Terror%20-%20%281989%29.mp4" },
-  { "start": "23:50", "title": "Las bromas más locas e increíbles", "url": "https://ia601608.us.archive.org/25/items/las-bromas-mas-locas-y-elaboradas-que-veras-2-bromas-increibles/Las%20bromas%20m%C3%A1s%20locas%20y%20elaboradas%20que%20ver%C3%A1s%202%20_%20Bromas%20incre%C3%ADbles.mp4" }
- ] 
-}
-
-
-
-
-
-
+  {
+    "start": "00:00",
+    "duration": "01:32:49",
+    "url": "https://ia600206.us.archive.org/20/items/los-verduleros-a/Los%20Verduleros%20a.mp4",
+    "title": "Los Verduleros a"
+  },
+  {
+    "start": "01:32",
+    "duration": "01:30:39",
+    "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/La%20Hermana%20Trinquete%20%28Silvia%20Pinal%29.mp4",
+    "title": "La Hermana Trinquete (Silvia Pinal)"
+  },
+  {
+    "start": "03:03",
+    "duration": "01:50:07",
+    "url": "https://dn721604.ca.archive.org/0/items/cinemex_202403/cinemex.mp4",
+    "title": "cinemex"
+  },
+  {
+    "start": "04:53",
+    "duration": "01:38:47",
+    "url": "https://dn721607.ca.archive.org/0/items/locas-vacaciones-sobre-ruedas_202403/locas%20vacaciones%20sobre%20ruedas.mp4",
+    "title": "locas vacaciones sobre ruedas"
+  },
+  {
+    "start": "06:32",
+    "duration": "01:23:10",
+    "url": "https://ia600202.us.archive.org/20/items/no-ballas-a-colgar/No%20ballas%20a%20colgar.mp4",
+    "title": "No ballas a colgar"
+  },
+  {
+    "start": "07:55",
+    "duration": "01:50:58",
+    "url": "https://dn710005.ca.archive.org/0/items/la-carrera-mortal-4/La%20Carrera%20Mortal%204.mp4",
+    "title": "La Carrera Mortal 4"
+  },
+  {
+    "start": "09:46",
+    "duration": "01:49:28",
+    "url": "https://dn710203.ca.archive.org/0/items/chica-de-alado/chica%20de%20alado.mp4",
+    "title": "chica de alado"
+  },
+  {
+    "start": "11:35",
+    "duration": "01:48:26",
+    "url": "https://dn721804.ca.archive.org/0/items/species_202310/species.mp4",
+    "title": "species"
+  },
+  {
+    "start": "13:24",
+    "duration": "01:50:07",
+    "url": "https://dn721604.ca.archive.org/0/items/cinemex_202403/cinemex.mp4",
+    "title": "cinemex"
+  },
+  {
+    "start": "15:14",
+    "duration": "01:38:47",
+    "url": "https://dn721607.ca.archive.org/0/items/locas-vacaciones-sobre-ruedas_202403/locas%20vacaciones%20sobre%20ruedas.mp4",
+    "title": "locas vacaciones sobre ruedas"
+  },
+  {
+    "start": "16:53",
+    "duration": "01:23:10",
+    "url": "https://ia600202.us.archive.org/20/items/no-ballas-a-colgar/No%20ballas%20a%20colgar.mp4",
+    "title": "No ballas a colgar"
+  },
+  {
+    "start": "18:16",
+    "duration": "01:50:58",
+    "url": "https://dn710005.ca.archive.org/0/items/la-carrera-mortal-4/La%20Carrera%20Mortal%204.mp4",
+    "title": "La Carrera Mortal 4"
+  },
+  {
+    "start": "20:07",
+    "duration": "01:49:28",
+    "url": "https://dn710203.ca.archive.org/0/items/chica-de-alado/chica%20de%20alado.mp4",
+    "title": "chica de alado"
+  },
+  {
+    "start": "21:56",
+    "duration": "01:48:26",
+    "url": "https://dn721804.ca.archive.org/0/items/species_202310/species.mp4",
+    "title": "species"
+  },
+  {
+    "start": "23:45",
+    "duration": "00:11:58",
+    "url": "https://ia601608.us.archive.org/25/items/las-bromas-mas-locas-y-elaboradas-que-veras-2-bromas-increibles/Las%20bromas%20m%C3%A1s%20locas%20y%20elaboradas%20que%20ver%C3%A1s%202%20_%20Bromas%20incre%C3%ADbles.mp4",
+    "title": "Las bromas más locas y elaboradas que verás 2 _ Bromas increíbles"
+  }
+]
