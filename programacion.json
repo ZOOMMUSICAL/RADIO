@@ -48,33 +48,68 @@
     { "start": "20:10", "title": "Rojo Amanecer (1989)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Rojo%20amanecer%20%281989%29.mp4" },
     { "start": "22:00", "title": "Cine C (2)", "url": "https://ia600300.us.archive.org/17/items/cine-c-2/cine%20C%20%282%29.ia.mp4" },
     { "start": "23:50", "title": "Las bromas más locas y elaboradas", "url": "https://ia601608.us.archive.org/25/items/las-bromas-mas-locas-y-elaboradas-que-veras-2-bromas-increibles/Las%20bromas%20m%C3%A1s%20locas%20y%20elaboradas%20que-ver%C3%A1s%202%20_%20Bromas%20incre%C3%ADbles.mp4" }
-  ],
+  {
   "4": [
     { "start": "00:00", "title": "Locas vacaciones sobre ruedas", "url": "https://dn721607.ca.archive.org/0/items/locas-vacaciones-sobre-ruedas_202403/locas%20vacaciones%20sobre%20ruedas.mp4" },
     { "start": "01:50", "title": "Un ladrón con estilo", "url": "https://dn721608.ca.archive.org/0/items/un-ladron-con-estilo/Un%20ladron%20con%20estilo.mp4" },
     { "start": "03:40", "title": "Delincuente (1986)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Delincuente%20%281986%29.mp4" },
     { "start": "05:30", "title": "El Inocente (1956)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/El%20inocente%20%281956%29.mp4" },
-    { "start": "07:20", "title": "Fuego con Fuego (1986, Duncan Gibbins)", "url": "https://dn710006.ca.archive.org/0/items/fuego-con-fuego-fire-with-fire-1986-duncan-gibbins-spa-latino/Fuego%20con%20fuego%20%28Fire%20with%20Fire%29%20%201986%2C%20Duncan%20Gibbins%20Spa%20Latino%20.ia.mp4" }
+    { "start": "07:20", "title": "Fuego con Fuego (1986, Duncan Gibbins)", "url": "https://dn710006.ca.archive.org/0/items/fuego-con-fuego-fire-with-fire-1986-duncan-gibbins-spa-latino/Fuego%20con%20fuego%20%28Fire%20with%20Fire%29%20%201986%2C%20Duncan%20Gibbins%20Spa%20Latino%20.ia.mp4" },
+    { "start": "09:10", "title": "Locas vacaciones sobre ruedas", "url": "https://dn721607.ca.archive.org/0/items/locas-vacaciones-sobre-ruedas_202403/locas%20vacaciones%20sobre%20ruedas.mp4" },
+    { "start": "11:00", "title": "Un ladrón con estilo", "url": "https://dn721608.ca.archive.org/0/items/un-ladron-con-estilo/Un%20ladron%20con%20estilo.mp4" },
+    { "start": "12:50", "title": "Delincuente (1986)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Delincuente%20%281986%29.mp4" },
+    { "start": "14:40", "title": "El Inocente (1956)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/El%20inocente%20%281956%29.mp4" },
+    { "start": "16:30", "title": "Fuego con Fuego (1986, Duncan Gibbins)", "url": "https://dn710006.ca.archive.org/0/items/fuego-con-fuego-fire-with-fire-1986-duncan-gibbins-spa-latino/Fuego%20con%20fuego%20%28Fire%20with%20Fire%29%20%201986%2C%20Duncan%20Gibbins%20Spa%20Latino%20.ia.mp4" },
+    { "start": "18:20", "title": "Locas vacaciones sobre ruedas", "url": "https://dn721607.ca.archive.org/0/items/locas-vacaciones-sobre-ruedas_202403/locas%20vacaciones%20sobre%20ruedas.mp4" },
+    { "start": "20:10", "title": "Un ladrón con estilo", "url": "https://dn721608.ca.archive.org/0/items/un-ladron-con-estilo/Un%20ladron%20con%20estilo.mp4" },
+    { "start": "22:00", "title": "Delincuente (1986)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Delincuente%20%281986%29.mp4" }
   ],
 
   "5": [
     { "start": "00:00", "title": "Campeón sin Corona", "url": "https://ia903206.us.archive.org/10/items/campeon-sin-corona_202202/CAMPEON_SIN_CORONA.mp4" },
     { "start": "01:50", "title": "Rojo Amanecer (1989)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Rojo%20amanecer%20%281989%29.mp4" },
     { "start": "03:40", "title": "Ni Chana ni Juana", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Ni%20Chana%20ni%20Juana.mp4" },
-    { "start": "05:30", "title": "El Gato con Botas (1960)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/El%20gato%20con%20botas%20%281960%29.mp4" }
+    { "start": "05:30", "title": "El Gato con Botas (1960)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/El%20gato%20con%20botas%20%281960%29.mp4" },
+    { "start": "07:20", "title": "Campeón sin Corona", "url": "https://ia903206.us.archive.org/10/items/campeon-sin-corona_202202/CAMPEON_SIN_CORONA.mp4" },
+    { "start": "09:10", "title": "Rojo Amanecer (1989)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Rojo%20amanecer%20%281989%29.mp4" },
+    { "start": "11:00", "title": "Ni Chana ni Juana", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Ni%20Chana%20ni%20Juana.mp4" },
+    { "start": "12:50", "title": "El Gato con Botas (1960)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/El%20gato%20con%20botas%20%281960%29.mp4" },
+    { "start": "14:40", "title": "Campeón sin Corona", "url": "https://ia903206.us.archive.org/10/items/campeon-sin-corona_202202/CAMPEON_SIN_CORONA.mp4" },
+    { "start": "16:30", "title": "Rojo Amanecer (1989)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Rojo%20amanecer%20%281989%29.mp4" },
+    { "start": "18:20", "title": "Ni Chana ni Juana", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Ni%20Chana%20ni%20Juana.mp4" },
+    { "start": "20:10", "title": "El Gato con Botas (1960)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/El%20gato%20con%20botas%20%281960%29.mp4" },
+    { "start": "22:00", "title": "Campeón sin Corona", "url": "https://ia903206.us.archive.org/10/items/campeon-sin-corona_202202/CAMPEON_SIN_CORONA.mp4" }
   ],
 
   "6": [
     { "start": "00:00", "title": "Comando Especial", "url": "https://ia803406.us.archive.org/15/items/comando-especial_202106/Comando%20Especial.mp4" },
     { "start": "01:50", "title": "El Inocente (1956)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/El%20inocente%20%281956%29.mp4" },
     { "start": "03:40", "title": "Fuego con Fuego (1986, Duncan Gibbins)", "url": "https://dn710006.ca.archive.org/0/items/fuego-con-fuego-fire-with-fire-1986-duncan-gibbins-spa-latino/Fuego%20con%20fuego%20%28Fire%20with%20Fire%29%20%201986%2C%20Duncan%20Gibbins%20Spa%20Latino%20.ia.mp4" },
-    { "start": "05:30", "title": "Cine C (2)", "url": "https://ia600300.us.archive.org/17/items/cine-c-2/cine%20C%20%282%29.ia.mp4" }
+    { "start": "05:30", "title": "Cine C (2)", "url": "https://ia600300.us.archive.org/17/items/cine-c-2/cine%20C%20%282%29.ia.mp4" },
+    { "start": "07:20", "title": "Comando Especial", "url": "https://ia803406.us.archive.org/15/items/comando-especial_202106/Comando%20Especial.mp4" },
+    { "start": "09:10", "title": "El Inocente (1956)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/El%20inocente%20%281956%29.mp4" },
+    { "start": "11:00", "title": "Fuego con Fuego (1986, Duncan Gibbins)", "url": "https://dn710006.ca.archive.org/0/items/fuego-con-fuego-fire-with-fire-1986-duncan-gibbins-spa-latino/Fuego%20con%20fuego%20%28Fire%20with%20Fire%29%20%201986%2C%20Duncan%20Gibbins%20Spa%20Latino%20.ia.mp4" },
+    { "start": "12:50", "title": "Cine C (2)", "url": "https://ia600300.us.archive.org/17/items/cine-c-2/cine%20C%20%282%29.ia.mp4" },
+    { "start": "14:40", "title": "Comando Especial", "url": "https://ia803406.us.archive.org/15/items/comando-especial_202106/Comando%20Especial.mp4" },
+    { "start": "16:30", "title": "El Inocente (1956)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/El%20inocente%20%281956%29.mp4" },
+    { "start": "18:20", "title": "Fuego con Fuego (1986, Duncan Gibbins)", "url": "https://dn710006.ca.archive.org/0/items/fuego-con-fuego-fire-with-fire-1986-duncan-gibbins-spa-latino/Fuego%20con%20fuego%20%28Fire%20with%20Fire%29%20%201986%2C%20Duncan%20Gibbins%20Spa%20Latino%20.ia.mp4" },
+    { "start": "20:10", "title": "Cine C (2)", "url": "https://ia600300.us.archive.org/17/items/cine-c-2/cine%20C%20%282%29.ia.mp4" },
+    { "start": "22:00", "title": "Comando Especial", "url": "https://ia803406.us.archive.org/15/items/comando-especial_202106/Comando%20Especial.mp4" }
   ],
 
   "7": [
     { "start": "00:00", "title": "Las bromas más locas y elaboradas", "url": "https://ia601608.us.archive.org/25/items/las-bromas-mas-locas-y-elaboradas-que-veras-2-bromas-increibles/Las%20bromas%20m%C3%A1s%20locas%20y%20elaboradas%20que-ver%C3%A1s%202%20_%20Bromas%20incre%C3%ADbles.mp4" },
     { "start": "01:50", "title": "El Analfabeto (Cantinflas, 1961)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/El%20Analfabeto%20%28Cantinflas%2C%201961%29.mp4" },
     { "start": "03:40", "title": "ALCANZAR UNA ESTRELLA", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Mas%20que%20alcanzar%20una%20estrella%20%281992%29.mp4" },
-    { "start": "05:30", "title": "Planeta Terror", "url": "https://ia600209.us.archive.org/33/items/planeta-terror/Planeta%20Terror.mp4" }
+    { "start": "05:30", "title": "Planeta Terror", "url": "https://ia600209.us.archive.org/33/items/planeta-terror/Planeta%20Terror.mp4" },
+    { "start": "07:20", "title": "Las bromas más locas y elaboradas", "url": "https://ia601608.us.archive.org/25/items/las-bromas-mas-locas-y-elaboradas-que-veras-2-bromas-increibles/Las%20bromas%20m%C3%A1s%20locas%20y%20elaboradas%20que-ver%C3%A1s%202%20_%20Bromas%20incre%C3%ADbles.mp4" },
+    { "start": "09:10", "title": "El Analfabeto (Cantinflas, 1961)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/El%20Analfabeto%20%28Cantinflas%2C%201961%29.mp4" },
+    { "start": "11:00", "title": "ALCANZAR UNA ESTRELLA", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Mas%20que%20alcanzar%20una%20estrella%20%281992%29.mp4" },
+    { "start": "12:50", "title": "Planeta Terror", "url": "https://ia600209.us.archive.org/33/items/planeta-terror/Planeta%20Terror.mp4" },
+    { "start": "14:40", "title": "Las bromas más locas y elaboradas", "url": "https://ia601608.us.archive.org/25/items/las-bromas-mas-locas-y-elaboradas-que-veras-2-bromas-increibles/Las%20bromas%20m%C3%A1s%20locas%20y%20elaboradas%20que-ver%C3%A1s%202%20_%20Bromas%20incre%C3%ADbles.mp4" },
+    { "start": "16:30", "title": "El Analfabeto (Cantinflas, 1961)", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/El%20Analfabeto%20%28Cantinflas%2C%201961%29.mp4" },
+    { "start": "18:20", "title": "ALCANZAR UNA ESTRELLA", "url": "https://dn720408.ca.archive.org/0/items/escapate-conmigo-1988/Mas%20que%20alcanzar%20una%20estrella%20%281992%29.mp4" },
+    { "start": "20:10", "title": "Planeta Terror", "url": "https://ia600209.us.archive.org/33/items/planeta-terror/Planeta%20Terror.mp4" },
+    { "start": "22:00", "title": "Las bromas más locas y elaboradas", "url": "https://ia601608.us.archive.org/25/items/las-bromas-mas-locas-y-elaboradas-que-veras-2-bromas-increibles/Las%20bromas%20m%C3%A1s%20locas%20y%20elaboradas%20que-ver%C3%A1s%202%20_%20Bromas%20incre%C3%ADbles.mp4" }
   ]
 }
