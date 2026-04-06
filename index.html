@@ -19,6 +19,7 @@
     <link rel="apple-touch-icon" href="./img/logo.png">
     <link rel="apple-touch-startup-image" href="./img/logo.png">
     <link rel="manifest" href="./manifest.json">
+
     <style>
       body {
         margin: 0;
@@ -27,7 +28,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 100vh;
+        min-height: 100vh; /* CORREGIDO */
         background: url('https://blogger.googleusercontent.com/img/a/AVvXsEgEdK0MxogfLTNy2XCuF7nWxsVpBPOvC8zYZ39bdPpL3k3k12QpgSSe8W55G4-pxYyHtUW--ZCh56yBGmZZj9axdJVsjMEOTsXasSr_sf5WmIbCy5a-qEjKMlIs40J3bKdW5cbiRPBVWQM3aOtQhk0ulTrloWM4sMn_LJxKqi5MadH3SEjW83JHUWVL-44=s1600') no-repeat center center fixed;
         background-size: cover;
         font-family: Arial, sans-serif;
@@ -37,21 +38,24 @@
       .player {
         text-align: center;
         width: 90%;
-        max-width: 300px;
+        max-width: 320px; /* MEJORADO */
+        padding: 10px;
       }
 
       .vinyl {
         position: relative;
-        width: 200px;
-        height: 200px;
+        width: 60vw; /* RESPONSIVE */
+        height: 60vw;
+        max-width: 220px;
+        max-height: 220px;
         margin: 0 auto;
         border-radius: 50%;
         background: #000;
         border: 5px solid #555;
-        box-sizing: border-box; /* Asegura que el borde no cambie el tamaño */
+        box-sizing: border-box;
         animation: spin 3s linear infinite;
         animation-play-state: paused;
-        transition: all 0.3s ease-in-out; /* Controla cualquier cambio de tamaño o transformación */
+        transition: all 0.3s ease-in-out;
       }
 
       .vinyl img {
@@ -68,12 +72,11 @@
         margin-top: 20px;
       }
 
-      /* Botón Play/Pause modificado */
       .play-pause-btn {
         background-color: #5e2760;
         color: white;
-        font-size: 18px;
-        padding: 10px 20px;
+        font-size: clamp(14px, 2.5vw, 18px); /* RESPONSIVE */
+        padding: 10px clamp(15px, 5vw, 25px);
         border: none;
         border-radius: 10px;
         cursor: pointer;
@@ -87,11 +90,11 @@
 
       .volume-container {
         margin: 20px auto;
-        width: 60%;
+        width: 80%; /* MEJORADO */
+        max-width: 250px;
         text-align: center;
       }
 
-      /* Barra de volumen personalizada */
       .volume-bar {
         width: 100%;
         height: 10px;
@@ -105,7 +108,7 @@
         height: 100%;
         background-color: red;
         border-radius: 5px;
-        width: 50%; /* Establecer valor inicial del volumen al 50% */
+        width: 50%;
       }
 
       .volume-thumb {
@@ -126,17 +129,14 @@
       }
 
       @keyframes spin {
-        from {
-          transform: rotate(0deg);
-        }
-        to {
-          transform: rotate(360deg);
-        }
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
       }
 
       .scrolling-container {
         margin: 20px auto;
         width: 80%;
+        max-width: 300px;
         overflow: hidden;
         background: linear-gradient(90deg, #6a11cb94, #2575fc42);
         border-radius: 10px;
@@ -147,19 +147,15 @@
       .scrolling-text {
         display: inline-block;
         white-space: nowrap;
-        font-size: 18px;
+        font-size: clamp(14px, 2.5vw, 18px); /* RESPONSIVE */
         color: #fff;
         font-weight: bold;
         animation: scroll-left 10s linear infinite;
       }
 
       @keyframes scroll-left {
-        from {
-          transform: translateX(100%);
-        }
-        to {
-          transform: translateX(-100%);
-        }
+        from { transform: translateX(100%); }
+        to { transform: translateX(-100%); }
       }
     </style>
   </head>
@@ -169,24 +165,26 @@
       <div class="vinyl" id="vinyl">
         <img id="cover" src="https://i.ibb.co/kDyKn2V/512-2-2.jpg" alt="Album Cover" />
       </div>
+
       <div class="metadata">
         <h4 id="title">ZOOM MUSICAL</h4>
       </div>
+
       <div class="controls">
-        <!-- Nuevo botón Play/Pause -->
         <button id="play-pause" class="play-pause-btn">Play</button>
       </div>
-<br/>
 
+      <br/>
 
       <div class="volume-container">
         <div class="volume-bar" id="volume-bar">
           <div class="volume-bar-fill" id="volume-fill"></div>
           <div class="volume-thumb" id="volume-thumb"></div>
         </div>
+
       <br/>
-    <br/>
-      
+      <br/>
+
       <div class="scrolling-container">
         <div class="scrolling-text">Gracias por escucharnos...</div>
       </div>
@@ -202,23 +200,20 @@
       const volumeFill = document.getElementById('volume-fill');
       const volumeThumb = document.getElementById('volume-thumb');
 
-      // Valor inicial de volumen
       let volume = 0.5;
       audio.volume = volume;
-      volumeFill.style.width = `${volume * 100}%`; // Establece la visualización del volumen
-      volumeThumb.style.left = `${volume * 100}%`; // Posiciona el control del volumen
+      volumeFill.style.width = `${volume * 100}%`;
+      volumeThumb.style.left = `${volume * 100}%`;
 
-      // Función para actualizar el volumen
       const updateVolume = (e) => {
         const rect = volumeBar.getBoundingClientRect();
         const offsetX = e.clientX - rect.left;
-        volume = Math.min(Math.max(offsetX / rect.width, 0), 1); // Asegura que el volumen esté entre 0 y 1
+        volume = Math.min(Math.max(offsetX / rect.width, 0), 1);
         audio.volume = volume;
-        volumeFill.style.width = `${volume * 100}%`; // Actualiza el relleno de la barra
-        volumeThumb.style.left = `${volume * 100}%`; // Mueve el control del volumen
+        volumeFill.style.width = `${volume * 100}%`;
+        volumeThumb.style.left = `${volume * 100}%`;
       };
 
-      // Evento para manejar el arrastre del control del volumen
       volumeThumb.addEventListener('mousedown', (e) => {
         e.preventDefault();
         const mouseMoveHandler = (e) => updateVolume(e);
@@ -230,24 +225,19 @@
         document.addEventListener('mouseup', mouseUpHandler);
       });
 
-      // Evento de clic para actualizar volumen
       volumeBar.addEventListener('click', updateVolume);
 
-      // Play/pause toggle
       playPauseButton.addEventListener('click', () => {
         if (audio.paused) {
           audio.play();
-          playPauseButton.textContent = 'Pause'; // Cambia el texto del botón
+          playPauseButton.textContent = 'Pause';
           vinyl.style.animationPlayState = 'running';
         } else {
           audio.pause();
-          playPauseButton.textContent = 'Play'; // Cambia el texto del botón
+          playPauseButton.textContent = 'Play';
           vinyl.style.animationPlayState = 'paused';
         }
       });
     </script>
   </body>
 </html>
-
-
-
