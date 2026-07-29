@@ -1,229 +1,386 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acerca de Zoom Musical</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Fuente moderna -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+<title>Acerca de Zoom Musical</title>
 
-    <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-        }
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-        body{
-            font-family:Arial, Helvetica, sans-serif;
-            line-height:1.7;
-            background:#f3f5f8;
-            color:#333;
-        }
+<style>
 
-        header{
-            background:linear-gradient(135deg,#1b1b1b,#3d3d3d);
-            color:#fff;
-            text-align:center;
-            padding:25px 20px;
-            box-shadow:0 3px 10px rgba(0,0,0,.2);
-        }
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-        header h1{
-            font-family:'Poppins',sans-serif;
-            font-size:1.8rem;
-            letter-spacing:1px;
-        }
+body{
+    font-family:'Poppins',sans-serif;
+    background:#101010;
+    color:#e9e9e9;
+    line-height:1.8;
+}
 
-        main{
-            max-width:900px;
-            margin:30px auto;
-            padding:0 15px;
-        }
+/*==========================
+        CABECERA
+==========================*/
 
-        section{
-            background:#fff;
-            border-radius:12px;
-            padding:25px;
-            margin-bottom:20px;
-            box-shadow:0 4px 15px rgba(0,0,0,.08);
-            transition:all .3s ease;
-        }
+header{
 
-        section:hover{
-            box-shadow:0 8px 22px rgba(0,0,0,.12);
-        }
+background:linear-gradient(135deg,#000,#232323,#111);
+padding:60px 20px;
+text-align:center;
+border-bottom:4px solid #ff3b3b;
 
-        p{
-            text-align:justify;
-            font-size:16px;
-            color:#444;
-        }
+}
 
-        .gracias{
-            text-align:center;
-            font-family:'Poppins',sans-serif;
-            font-size:22px;
-            color:#222;
-            margin-bottom:25px;
-        }
+header h1{
 
-        .firma{
-            text-align:center;
-            font-family:'Poppins',sans-serif;
-            font-size:36px;
-            font-weight:600;
-            letter-spacing:4px;
-            color:#111;
-            margin:20px 0;
-        }
+font-size:48px;
+color:#ffffff;
+letter-spacing:3px;
 
-        .legal{
-            border-top:1px solid #ddd;
-            padding-top:20px;
-            margin-top:20px;
-            font-size:14px;
-            color:#666;
-            line-height:1.8;
-            text-align:justify;
-        }
+}
 
-        @media(max-width:768px){
+header h2{
 
-            header h1{
-                font-size:1.5rem;
-            }
+margin-top:15px;
+font-size:20px;
+font-weight:300;
+color:#d8d8d8;
 
-            section{
-                padding:20px;
-            }
+}
 
-            .gracias{
-                font-size:20px;
-            }
+/*==========================
+        CONTENEDOR
+==========================*/
 
-            .firma{
-                font-size:30px;
-            }
+.container{
 
-            p{
-                font-size:15px;
-            }
+width:90%;
+max-width:950px;
+margin:auto;
+padding:40px 0;
 
-            .legal{
-                font-size:13px;
-            }
-        }
+}
 
-        @media(max-width:480px){
+/*==========================
+        TARJETAS
+==========================*/
 
-            main{
-                padding:0 10px;
-            }
+.card{
 
-            header{
-                padding:20px 15px;
-            }
+background:#181818;
+border-radius:18px;
+padding:35px;
+margin-bottom:30px;
+border-left:6px solid #ff3b3b;
+box-shadow:0 10px 25px rgba(0,0,0,.35);
 
-            header h1{
-                font-size:1.3rem;
-            }
+}
 
-            section{
-                padding:18px;
-            }
+.card h3{
 
-            .gracias{
-                font-size:18px;
-            }
+font-size:28px;
+margin-bottom:20px;
+color:#ffffff;
 
-            .firma{
-                font-size:26px;
-                letter-spacing:2px;
-            }
+}
 
-            p{
-                font-size:14px;
-            }
+.card p{
 
-            .legal{
-                font-size:12px;
-            }
-        }
-    </style>
+font-size:17px;
+text-align:justify;
+color:#d4d4d4;
+
+}
+
+/*==========================
+      AGRADECIMIENTO
+==========================*/
+
+.gracias{
+
+text-align:center;
+padding:20px 0;
+
+}
+
+.gracias h2{
+
+font-size:34px;
+color:#ffffff;
+margin-bottom:10px;
+
+}
+
+.gracias p{
+
+font-size:18px;
+color:#cfcfcf;
+
+}
+
+/*==========================
+      FIRMA
+==========================*/
+
+.firma{
+
+margin-top:35px;
+text-align:center;
+
+}
+
+.firma h1{
+
+font-size:52px;
+letter-spacing:6px;
+color:#ffffff;
+
+}
+
+.firma span{
+
+display:block;
+margin-top:10px;
+font-size:18px;
+color:#ff3b3b;
+font-weight:600;
+
+}
+
+/*==========================
+      AVISO LEGAL
+==========================*/
+
+.legal{
+
+margin-top:40px;
+padding-top:25px;
+border-top:1px solid #444;
+
+font-size:14px;
+line-height:1.9;
+color:#bdbdbd;
+text-align:justify;
+
+}
+
+.legal strong{
+
+color:#ffffff;
+
+}
+
+/*==========================
+      PIE
+==========================*/
+
+footer{
+
+margin-top:60px;
+padding:25px;
+text-align:center;
+background:#080808;
+color:#888;
+font-size:14px;
+border-top:2px solid #ff3b3b;
+
+}
+
+/*==========================
+      RESPONSIVE
+==========================*/
+
+@media(max-width:768px){
+
+header h1{
+
+font-size:36px;
+
+}
+
+header h2{
+
+font-size:18px;
+
+}
+
+.card{
+
+padding:25px;
+
+}
+
+.card h3{
+
+font-size:24px;
+
+}
+
+.card p{
+
+font-size:16px;
+
+}
+
+.gracias h2{
+
+font-size:28px;
+
+}
+
+.firma h1{
+
+font-size:38px;
+
+}
+
+}
+
+@media(max-width:480px){
+
+header{
+
+padding:45px 15px;
+
+}
+
+header h1{
+
+font-size:30px;
+
+}
+
+header h2{
+
+font-size:16px;
+
+}
+
+.card{
+
+padding:20px;
+
+}
+
+.card p{
+
+font-size:15px;
+
+}
+
+.gracias h2{
+
+font-size:24px;
+
+}
+
+.firma h1{
+
+font-size:30px;
+letter-spacing:3px;
+
+}
+
+}
+
+</style>
+
 </head>
 
 <body>
 
 <header>
-    <h1>Acerca de Zoom Musical</h1>
+
+<h1>ZOOM MUSICAL</h1>
+
+<h2>Siempre la mejor música</h2>
+
 </header>
 
-<main>
+<div class="container">
 
-    <section>
+<div class="card">
 
-        <p>
-            ¡Bienvenido a <strong>Zoom Musical</strong>, tu estación de radio online que siempre está a tu alcance!
-            Somos una emisora nativa digital independiente y sin fines de lucro que te acompaña en cualquier momento
-            y lugar mediante nuestra plataforma PWA (Progressive Web App).
+<h3>🎵 Acerca de Nosotros</h3>
 
-            Disfruta de tu música favorita desde la comodidad de tu computadora, teléfono móvil o tablet, sin importar
-            si estás en casa, en el trabajo o mientras te desplazas.
+<p>
 
-            Gracias a nuestra tecnología PWA, puedes escuchar la radio directamente desde tu navegador, sin necesidad
-            de descargar aplicaciones adicionales. Nuestra interfaz está diseñada para ofrecer una experiencia rápida,
-            intuitiva, segura y accesible.
+Bienvenido a <strong>Zoom Musical</strong>, una emisora nativa digital independiente creada por pasión por la música.
 
-            En Zoom Musical encontrarás una programación cuidadosamente seleccionada con los mejores éxitos del pop
-            en inglés, pop en español, música tropical, baladas de los años 70, 80, 90 y los grandes éxitos de la
-            actualidad.
+Nuestra misión es ofrecer una experiencia diferente, libre de publicidad invasiva y con una programación cuidadosamente seleccionada para acompañarte durante todo el día.
 
-            Nuestro compromiso es brindarte una transmisión estable, de alta calidad y completamente libre de publicidad,
-            para que disfrutes únicamente de la mejor música.
-        </p>
+Gracias a nuestra tecnología <strong>PWA (Progressive Web App)</strong>, puedes escuchar la radio desde cualquier dispositivo sin instalar aplicaciones adicionales, disfrutando de una experiencia rápida, ligera y segura.
 
-    </section>
+Nuestra programación reúne los mejores éxitos del pop en inglés, pop en español, tropical, baladas inolvidables de los años 70, 80 y 90, además de los grandes éxitos actuales.
 
-    <section>
+En Zoom Musical creemos que la música debe escucharse sin interrupciones.
 
-        <div class="gracias">
-            Gracias por ser parte de nuestra comunidad de oyentes.<br>
-            Nos alegra acompañarte cada día con la mejor música.
-        </div>
+</p>
 
-        <div class="firma">
-            Zoom Musical
-        </div>
+</div>
 
-        <div class="legal">
-            <strong>Radio Zoom Musical — Siempre la mejor música.</strong><br><br>
+<div class="card">
 
-            Emisora nativa digital independiente y sin fines de lucro, transmitiendo de manera continua desde hace más de cinco años.
+<div class="gracias">
 
-            <br><br>
+<h2>❤️ Gracias por acompañarnos</h2>
 
-            © 2021-2026 Todos los derechos reservados.
+<p>
 
-            <br><br>
+Cada reproducción, cada visita y cada oyente hacen posible este proyecto independiente.
 
-            El nombre comercial <strong>"Zoom Musical"</strong>, su eslogan oficial y el diseño gráfico de su logotipo constituyen la identidad oficial de la emisora y son propiedad intelectual exclusiva de su creador, protegidos por derecho de autor derivado de su uso continuo y previo en Internet.
+Gracias por formar parte de la familia Zoom Musical.
 
-            <br><br>
+</p>
 
-            Queda estrictamente prohibido copiar, reproducir, modificar, distribuir o utilizar total o parcialmente esta identidad visual en cualquier sitio web, aplicación, plataforma digital o servicio de streaming sin la autorización previa y expresa de su titular.
+</div>
 
-            <br><br>
+<div class="firma">
 
-            <strong>Contacto oficial:</strong><br>
-            zoomradionline@gmail.com
+<h1>ZOOM MUSICAL</h1>
 
-        </div>
+<span>Siempre la mejor música</span>
 
-    </section>
+</div>
 
-</main>
+<div class="legal">
+
+<strong>Radio Zoom Musical</strong> es una emisora nativa digital independiente y sin fines de lucro que transmite de forma continua desde el año 2021.
+
+<br><br>
+
+© 2021-2026 Todos los derechos reservados.
+
+<br><br>
+
+El nombre comercial <strong>Zoom Musical</strong>, su eslogan oficial y el diseño gráfico de su logotipo constituyen la identidad oficial de la emisora y son propiedad intelectual exclusiva de su creador, protegidos por el derecho de autor derivado de su uso previo y continuo en Internet.
+
+<br><br>
+
+Queda estrictamente prohibida la copia, reproducción, modificación, distribución o utilización total o parcial de esta identidad visual en cualquier aplicación, sitio web, plataforma digital o servicio de streaming sin autorización previa y expresa de su titular.
+
+<br><br>
+
+<strong>Contacto oficial</strong><br>
+
+📧 zoomradionline@gmail.com
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+Zoom Musical • Siempre la mejor música • © 2021-2026
+
+</footer>
 
 </body>
 </html>
