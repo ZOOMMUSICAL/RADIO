@@ -9,15 +9,6 @@
   "start_url": "https://radiozoommusical.com/",
   "scope": "./",
   "lang": "es-UY",
-  "screenshots": [
-    {
-      "src": "./img/splash.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "form_factor": "narrow",
-      "label": "Radio Zoom Musical"
-    }
-  ],
   "icons": [
     {
       "src": "./img/icon_1024.png",
