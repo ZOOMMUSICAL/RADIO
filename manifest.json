@@ -1,17 +1,15 @@
 {
-  
-"name": "Radio Zoom Musical",
-"short_name": "Zoom Musical",
-"description": "Siempre la mejor musica",
-"background_color": "#d78522",
-"theme_color": "#000000",
-"orientation": "portrait",
-"display": "fullscreen",
-"start_url": "https://radiozoommusical.com/",
-"scope": "./",
-"lang": "es-UY",
-"icons": [
-
+  "name": "Radio Zoom Musical",
+  "short_name": "Zoom Musical",
+  "description": "Siempre la mejor musica",
+  "background_color": "#d78522",
+  "theme_color": "#d78522",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "https://radiozoommusical.com/",
+  "scope": "./",
+  "lang": "es-UY",
+  "icons": [
     {
       "src": "./img/icon_1024.png",
       "sizes": "1024x1024",
